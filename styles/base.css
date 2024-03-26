@@ -1,0 +1,84 @@
+html {
+  --background: #ffffff;
+  --accent1: #667588;
+  --accent2: #a7adb3;
+  --accent3: #c4c2c6;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: vaR(--background);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 60px;
+}
+
+#nav-name h1 {
+  margin: 0;
+}
+
+#nav-name h2 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 19px;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+#nav-links li {
+  display: inline-block;
+}
+
+.current-page {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.accent1 {
+  color: var(--accent1);
+  font-weight: bold;
+}
+
+.accent2 {
+  color: var(--accent2);
+  font-weight: bold;
+}
+.accent3 {
+  color: var(--accent3);
+  font-weight: bold;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+#nav-links a {
+  transition: color 0.3s ease;
+}
+#nav-links a:hover {
+  color: var(--accent1);
+}

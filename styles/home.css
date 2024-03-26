@@ -1,0 +1,59 @@
+#profile-photo {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 50px;
+}
+
+main {
+  display: flex;
+  max-width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#intro {
+  width: 60%;
+}
+
+#intro h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+#intro h1 span {
+  font-weight: bold;
+}
+#intro h2 {
+  font-size: 45px;
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+#quick-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+#quick-links a {
+  display: inline-block;
+  width: 25%;
+  min-width: 100px;
+  text-align: center;
+  padding: 5px auto;
+  border: solid vaR(--accent3);
+  color: var(--accent3);
+  transition: width 1s ease, background-color 0.5s ease, border-color 0.5s ease;
+}
+#quick-links a:hover {
+  background-color: var(--accent1);
+  border-color: var(--accent1);
+  color: var(--background);
+  width: 75%;
+}
