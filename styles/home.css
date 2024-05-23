@@ -34,11 +34,11 @@ main {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #quick-links a {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   min-width: 100px;
   text-align: center;
   padding: 5px auto;
@@ -51,4 +51,16 @@ main {
   border-color: var(--accent1);
   color: var(--background);
   width: 75%;
+}
+
+@media screen and (max-width: 750px) {
+  #quick-links {
+    flex-wrap: wrap;
+  }
+  #quick-links a:hover {
+    background-color: var(--accent1);
+    border-color: var(--accent1);
+    color: var(--background);
+    width: 20%;
+  }
 }
