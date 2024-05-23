@@ -130,7 +130,7 @@ footer {
   min-width: 100px;
   text-align: center;
   padding: 5px auto;
-  border: solid vaR(--accent3);
+  border: solid vaR(--accent3) 2px;
   color: var(--accent3);
   transition: width 1s ease, background-color 0.5s ease, border-color 0.5s ease;
 }
