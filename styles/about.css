@@ -1,10 +1,15 @@
 main {
-  max-width: 50vw;
+  width: 60vw;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 80px;
 }
 
+@media screen and (max-width: 700px) {
+  main {
+    width: 80vw;
+  }
+}
 .role-title {
   display: flex;
   justify-content: space-between;
@@ -25,4 +30,13 @@ main {
 img {
   display: block;
   margin: 0 auto;
+}
+
+.period {
+  color: var(--accent3);
+}
+
+#quick-links {
+  margin: 50px 0;
+  justify-content: center;
 }
