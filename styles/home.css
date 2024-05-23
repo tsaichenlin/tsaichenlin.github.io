@@ -9,12 +9,6 @@ main {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 400px) {
-  main {
-    width: 100vw;
-  }
-}
-
 #intro {
   width: 60%;
 }
@@ -39,5 +33,19 @@ main {
   #intro h2 {
     font-size: 30px;
     text-align: center;
+  }
+  main {
+    width: 90vw;
+  }
+  #intro {
+    width: 90%;
+  }
+  #intro h1,
+  #intro h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #quick-links {
+    justify-content: center;
   }
 }
