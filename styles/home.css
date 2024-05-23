@@ -34,6 +34,7 @@ main {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .quick-links a {
   display: inline-block;
