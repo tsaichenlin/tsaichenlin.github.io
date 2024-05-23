@@ -30,8 +30,8 @@ main {
 h1 {
   text-align: left;
 }
-#nav-name {
-  align-items: center;
+#nav-name h1 {
+  text-align: center;
 }
 
 section {
