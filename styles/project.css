@@ -30,7 +30,7 @@ main {
 h1 {
   text-align: left;
 }
-#nav-name h1 {
+#nav-name {
   align-items: center;
 }
 
