@@ -10,6 +10,13 @@ main {
   width: 60vw;
   min-width: 270px;
 }
+
+@media only screen and (max-width: 850px) {
+  main {
+    max-width: 95vw;
+  }
+}
+
 #title {
   text-align: center;
   margin-bottom: 40px;
