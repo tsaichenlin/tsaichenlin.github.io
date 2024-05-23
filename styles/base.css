@@ -13,7 +13,13 @@ body {
   margin: 0;
   padding: 0;
 }
-
+#profile-photo {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 50px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -26,7 +32,7 @@ a:hover {
 #nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 30px 60px;
+  margin: 30px 2.5vw;
 }
 
 #nav-name h1 {
@@ -43,6 +49,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 300px;
+  min-width: 280px;
 }
 
 #nav-links li {
@@ -59,12 +66,14 @@ a:hover {
 
 .accent1 {
   color: var(--accent1);
-  font-weight: bold;
+  font-weight: 600;
+  transition: font-weight 0.3s ease;
 }
 
 .accent2 {
   color: var(--accent2);
-  font-weight: bold;
+  font-weight: 600;
+  transition: font-weight 0.3s ease;
 }
 .accent3 {
   color: var(--accent3);
@@ -76,9 +85,23 @@ p {
   letter-spacing: 0.05em;
 }
 
+li {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
 #nav-links a {
   transition: color 0.3s ease;
 }
 #nav-links a:hover {
   color: var(--accent1);
+}
+
+#code:hover,
+#design:hover {
+  font-weight: 1000;
+}
+
+footer {
+  margin-top: 50px;
 }

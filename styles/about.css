@@ -1,0 +1,28 @@
+main {
+  max-width: 50vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.role-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.role-title span {
+  font-weight: 500;
+}
+
+.role-title p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
