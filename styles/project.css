@@ -30,6 +30,9 @@ main {
 h1 {
   text-align: left;
 }
+#nav-name h1 {
+  align-items: center;
+}
 
 section {
   max-width: 80%;
