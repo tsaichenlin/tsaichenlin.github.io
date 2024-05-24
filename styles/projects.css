@@ -133,3 +133,9 @@ article {
 :hover::after {
   width: 105%;
 }
+
+@media only screen and (max-width: 454px) {
+  .info-container {
+    text-align: center;
+  }
+}
