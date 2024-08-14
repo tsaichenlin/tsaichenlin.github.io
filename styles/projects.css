@@ -1,5 +1,5 @@
 .thumbnail {
-  width: 260px;
+  width: 300px;
   margin: 0;
 }
 
@@ -34,6 +34,10 @@ article {
   transition: border-color 0.5s ease;
 }
 
+article:nth-child(1) {
+  margin-top: 60px;
+}
+
 .proj-num {
   font-size: 40px;
   color: vaR(--accent3);
@@ -57,7 +61,7 @@ article {
   font-size: 16px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ea6868;
 }
 
@@ -69,8 +73,8 @@ article {
 
 .info-container .skills {
   margin-top: 0;
-  color: var(--accent3);
-  font-style: italic;
+  color: #ea6868;
+  font-weight: 400;
 }
 
 .learn-more {
@@ -134,8 +138,51 @@ article {
   width: 105%;
 }
 
-@media only screen and (max-width: 454px) {
+@media only screen and (max-width: 900px) {
   .info-container {
     text-align: center;
   }
+  .proj-num {
+    display: block;
+    width: 100%;
+  }
+}
+
+.filterBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.tag {
+  border: none;
+  padding: 5px 10px;
+  border: 2px solid var(--accent3);
+  color: var(--accent3);
+  background: var(--background);
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tag:hover {
+  background-color: black;
+  border: 2px solid black;
+  width: 85px;
+  color: var(--background);
+}
+
+.date {
+  font-style: italic;
+  color: var(--accent3);
+}
+
+.active {
+  background-color: black;
+  color: var(--background);
+  border: 2px solid black;
 }
