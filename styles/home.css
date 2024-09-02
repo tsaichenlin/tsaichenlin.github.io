@@ -42,6 +42,7 @@ main {
   }
   #intro {
     width: 90%;
+    padding-bottom: 50px;
   }
   #quick-links {
     justify-content: center;
