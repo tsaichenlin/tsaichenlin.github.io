@@ -30,8 +30,8 @@ article {
   align-items: center;
   margin: 70px 0;
   flex-wrap: wrap;
-  gap: 40px;
   transition: border-color 0.5s ease;
+  gap: 40px;
 }
 
 article:nth-child(1) {
@@ -43,6 +43,8 @@ article:nth-child(1) {
   color: vaR(--accent3);
   font-weight: 500;
   margin: 0px;
+  width: 60px;
+  text-align: center;
 }
 
 .info-container {
@@ -55,6 +57,7 @@ article:nth-child(1) {
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .info-container h2 {
@@ -93,7 +96,7 @@ article:nth-child(1) {
   color: white;
   background-color: var(--accent3);
   border-color: var(--accent3);
-  width: 90%;
+  width: 100%;
 }
 /*
 #project-nav {

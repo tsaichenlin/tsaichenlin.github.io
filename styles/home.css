@@ -15,21 +15,24 @@ main {
 
 #intro h1 {
   font-size: 45px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0px;
 }
 
 #intro h1 span {
-  font-weight: bold;
+  font-weight: 700;
 }
 #intro h2 {
-  font-size: 45px;
+  font-size: 35px;
   margin-top: 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-@media only screen and (max-width: 850px) {
-  #intro h1,
+@media only screen and (max-width: 1187px) {
+  #intro h1 {
+    font-size: 35px;
+    text-align: center;
+  }
   #intro h2 {
     font-size: 30px;
     text-align: center;
@@ -40,12 +43,10 @@ main {
   #intro {
     width: 90%;
   }
-  #intro h1,
-  #intro h2 {
-    font-size: 30px;
-    text-align: center;
-  }
   #quick-links {
     justify-content: center;
+  }
+  #intro p {
+    text-align: center;
   }
 }
