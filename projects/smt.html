@@ -42,9 +42,9 @@
       />
       <section id="info-section">
         <div>
-          <h1>My Role</h1>
-          <p>Full Stack Developer</p>
-          <p>UI Designer</p>
+          <h1>Skills</h1>
+          <p>Full Stack Development</p>
+          <p>UI Design</p>
         </div>
         <div>
           <h1>Duration</h1>
@@ -52,7 +52,7 @@
         </div>
         <div>
           <h1>The Team</h1>
-          <p>2 CS Students</p>
+          <p>2 Undergrad CS Students</p>
         </div>
       </section>
 
@@ -67,35 +67,123 @@
           >
         </div>
         <p>
-          Who’s on First? - A Baseball Simulator is a web application designed
-          to enhance the defensive evaluation of a baseball lineup. Using raw
-          data provided by SportsMEDIA Technology (SMT), our team filtered
-          through the data and developed a model that assesses both individual
-          and team defense. The model factors in each player’s starting position
-          and the dynamics of the entire lineup, delivering a precise and
-          holistic evaluation.
+          Who's on First? is a baseball defense simulator web application
+          created during the 2024 SportsMEDIA Technology (SMT) Data Challenge.
+          Using raw data provided by SMT, our team filtered through the data and
+          developed a model that assesses both individual and team defense. The
+          model factors in each player's starting position and the dynamics of
+          the entire lineup, delivering a precise and holistic evaluation.
         </p>
+      </section>
 
+      <section>
+        <h1>Goal</h1>
         <p>
-          <span>Our Goal:</span> Enables coaches, players, and teams to
-          accurately assess their defensive performance for different lineups.
+          Enables coaches, players, and teams to accurately assess their
+          defensive performance for different lineups.
         </p>
       </section>
 
       <section>
         <h1>Toolkit</h1>
-
         <p>
           <span>Programming Languages: </span>ReactJS, Flask, Tensorflow, Pandas
         </p>
         <p><span>Design Tools: </span>Figma</p>
       </section>
-      <section>
-        <h1>Design</h1>
 
-        <h2 class="feature-title">Color Pallete</h2>
+      <section id="role-section">
+        <h1>My Role</h1>
+        <p>
+          My primary responsibilities included designing the UI, building the
+          web application, and integrating it with the backend server and model.
+          Additionally, I contributed to idea generation and played a
+          significant role in delivering the final presentation.
+        </p>
+
+        <p>Key Contributions:</p>
+        <ul>
+          <li>Designed the user interface and developed a prototype.</li>
+          <li>
+            Built a dynamic webpage and preprocessed user inputs before passing
+            data to the model.
+          </li>
+          <li>
+            Integrated the front-end web application with the back-end Flask
+            server.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Brainstorming Stage</h1>
+        <p>
+          We began this project with multiple brainstorming sessions to decide
+          on the model and application we wanted to create. After many
+          discussions, we chose to focus on evaluating the team's defense as a
+          whole, where each player's stats influence the performance of their
+          teammates. We also want to create a user-friendly application for
+          coaches, players, and teams.
+        </p>
+      </section>
+
+      <section>
+        <h1>Planning Stage</h1>
+        <p>
+          In order to produce a successful result, we planned out our projects
+          and created checkpoints to keep ourselves on track. We also regularly
+          met with SMT Data Challenge advisors to get feedback.
+        </p>
+        <p>
+          Below is our Minimum Viable Product. We followed this plan to stay
+          focused, prioritize critical features, and ensure we remained on track
+          during the limited time available for the challenge.
+        </p>
+        <p style="font-weight: 600">Our Minimum Viable Product:</p>
+        <ul>
+          <li>Model</li>
+          <ul>
+            <li>
+              The model generates defense values influenced by the chosen
+              players and their positions.
+            </li>
+            <li>
+              Pre-processing involves rough calculations of outs and innings to
+              train the model and calculate runs.
+            </li>
+          </ul>
+
+          <li>Web Application</li>
+          <ul>
+            <li>
+              Users can customize the team lineup with the following features:
+            </li>
+            <ul>
+              <li>Add, remove, and edit players.</li>
+              <li>Search for players to include in the lineup.</li>
+            </ul>
+
+            <li>
+              Users can simulate the lineup using the model and view the
+              resulting defense metrics.
+            </li>
+            <ul>
+              <li>An evaluation report displays detailed defense results.</li>
+              <li>
+                Users can modify the lineup and resimulate, allowing for
+                iterative improvements based on the model's feedback.
+              </li>
+            </ul>
+          </ul>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Designing Stage</h1>
+
+        <h2 class="feature-title">Color Palette</h2>
         <img
-          class="taskbuddy-img"
+          class="taskbuddy-img img-shadow"
           src="../media/smt/Colors.png
         "
         />
@@ -106,17 +194,52 @@
         </p>
 
         <h2 class="feature-title">Typography</h2>
-        <img class="taskbuddy-img" src="../media/smt/Font.png" />
+        <img class="taskbuddy-img img-shadow" src="../media/smt/Font.png" />
         <p class="feature-description">
           To prevent the page from becoming cluttered when presenting large
           amounts of data, I selected a simple and modern font to maintain a
           clean look.
         </p>
+
+        <h2 class="feature-title">Prototypes</h2>
+        <p class="feature-description">
+          I designed the user interface and created a prototype using Figma,
+          which can be viewed
+          <a
+            class="external-link"
+            href="https://www.figma.com/design/Y1ZNaXJNsTSUxBiP4CzOT0/Grad-Application-Portfolio-1?node-id=0-1&t=obowfn6kXpddyG5a-1"
+            target="_blank"
+            style="font-weight: 400"
+            >here.</a
+          >
+        </p>
+      </section>
+
+      <section>
+        <h1>Development Stage</h1>
+        <p>
+          We utilized React to build the front-end of our web application and
+          Flask for the back-end server.
+        </p>
+        <ul>
+          <li>
+            We chose React for the front-end due to its component-based
+            architecture, which enabled us to build the application more quickly
+            and efficiently.
+          </li>
+          <li>
+            We used Flask for the back-end as it provided a lightweight and
+            straightforward server to run the model.
+          </li>
+        </ul>
       </section>
 
       <section>
         <h1>Feature Walkthrough</h1>
-
+        <p>
+          *The final mockups are created using screenshots from the web
+          applications.
+        </p>
         <h2 class="feature-title">Start Page</h2>
         <img class="taskbuddy-img" src="../media/smt/Start.png" />
         <p class="feature-description"></p>
@@ -150,7 +273,7 @@
         </p>
 
         <h2 class="feature-title">Evaluation Report</h2>
-        <img class="taskbuddy-img" src="../media/smt/Interactive.png" />
+        <img class="taskbuddy-img" src="../media/smt/Evaluation Report.png" />
         <p class="feature-description">
           After selecting a lineup and running a simulation with our model, view
           a comprehensive report of the lineup’s defensive evaluation.
@@ -158,41 +281,10 @@
       </section>
 
       <section>
-        <h1>Design Poster</h1>
-        <img class="taskbuddy-img" src="../media/smt/Poster.png" />
+        <h1>Final Poster</h1>
+        <img class="taskbuddy-img img-shadow" src="../media/smt/Poster.png" />
       </section>
 
-      <section id="role-section">
-        <h1>My Role</h1>
-        <p>
-          For this data challenge, I collaborated with a teammate to develop a
-          full-stack web application. I was primarily responsible for building
-          the web application and integrating it with the backend model.
-          Additionally, I contributed to idea generation, the paper write-up,
-          and the presentation.
-        </p>
-
-        <p>Key Contributions:</p>
-        <ul>
-          <li>
-            Designed the user interface and created a high-fidelity prototype.
-          </li>
-          <li>
-            Developed a dynamic webpage and preprocessed user inputs before
-            passing the data to our model.
-          </li>
-          <li>
-            Integrated the front-end web application with the back-end Flask
-            server.
-          </li>
-          <li>
-            Contributed to the project paper and created the product feature
-            presentation.
-          </li>
-        </ul>
-      </section>
-
-      <section id="final-section"></section>
       <footer>
         <a class="return-button" href="../projects.html">Back to Projects</a>
       </footer>

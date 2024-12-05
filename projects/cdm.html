@@ -34,13 +34,14 @@
     <main>
       <a class="back-button" href="../projects.html"> &larr;</a>
       <p id="subtitle">Web Design</p>
-      <h1 id="title">Children Discovery Museum</h1>
+      <h1 id="title">Children's Discovery Museum</h1>
       <img id="cover" src="../media/museum/cdm laptop.png" style="width: 80%" />
 
       <section id="info-section">
         <div>
           <h1>Skills</h1>
           <p>UI Design</p>
+          <p>Wireframes</p>
         </div>
         <div>
           <h1>Toolkit</h1>
@@ -57,7 +58,7 @@
         <div id="links">
           <a
             class="external-links"
-            href="https://www.figma.com/design/BB6GQ8hi2QngejcTgcP68k/Mandy-Lin's-Projects?node-id=1-2"
+            href="https://www.figma.com/design/Y1ZNaXJNsTSUxBiP4CzOT0/Grad-Application-Portfolio-1?node-id=1-2&t=g3tzLhA9cPAawHgp-1"
             target="_blank"
             >View in Figma</a
           >
@@ -66,10 +67,7 @@
           As a nonprofit interactive museum, the Children’s Discovery Museum
           fosters creativity and curiosity in youth through hands-on exhibits.
           Having cherished many joyful memories from my childhood visits, I was
-          inspired to redesign the museum’s website after observing its design
-          and technical issues. My goal was to capture the excitement and
-          playful atmosphere of the museum, reflecting the engaging experience I
-          once had as a visitor.
+          inspired to redesign the museum’s outdated website.
         </p>
       </section>
 
@@ -108,7 +106,50 @@
         <ul>
           <li>Parents with young children</li>
           <li>Young children</li>
-          <li>Schools planning field trips</li>
+          <li>Local schools planning field trips</li>
+        </ul>
+      </section>
+
+      <section class="photos">
+        <h1>Persona</h1>
+        <p>
+          To better understand the target audience and their needs, I created
+          personas representing typical users.
+        </p>
+        <div id="persona-carousel" class="carousel">
+          <div class="carousel-images">
+            <img
+              src="../media/museum/Persona.png"
+              alt="Persona Image - David Anderson a father who wants to bring his twin 8 year old sons to the museum."
+            />
+            <img
+              src="../media/museum/CDM Persona 2.png"
+              alt="Persona Image 2"
+            />
+            <img
+              src="../media/museum/CDM Persona 3.png"
+              alt="Persona Image 3"
+            />
+          </div>
+          <button class="carousel-button prev" onclick="moveCarousel(-1)">
+            &#10094;
+          </button>
+          <button class="carousel-button next" onclick="moveCarousel(1)">
+            &#10095;
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <h1>Typical Tasks</h1>
+        <p>
+          By developing the persona, I identified the most common tasks users
+          typically perform when visiting the website.
+        </p>
+        <ul>
+          <li>Purchasing Tickets and Membership</li>
+          <li>Browsing Exhibitions</li>
+          <li>Learning About the Museum</li>
         </ul>
       </section>
 
@@ -116,28 +157,42 @@
         <h1>Site Structure</h1>
         <p class="photo-description">
           Before starting the redesign, I analyzed the site structure and
-          identified the key content that needed to be included. This
-          foundational research was crucial in ensuring that the redesigned site
-          would effectively meet the museum's needs and deliver an enhanced user
-          experience.
+          identified the key content that needed to be included.
         </p>
         <img class="img-shadow" src="../media/museum/cdm cite structure.jpg" />
+        <p>
+          Looking at this overwhelming diagram, we can emphasize the challenges
+          users face in navigating to relevant pages. For my redesign, I
+          carefully reviewed all the pages and prioritized the most essential
+          ones, focusing on the
+          <strong>Home page, Visit page, Ticket page, and About page.</strong>
+        </p>
       </section>
 
       <section class="photos">
         <h1>Mood Board</h1>
         <p class="photo-description">
-          The mood board captures a modern and playful feel while incorporating
-          colors and elements from the museum's original branding.
+          Next, I created a mood board that captures a modern and playful feel,
+          while incorporating elements from the museum's original branding.
         </p>
         <img src="../media/museum/cdm moodboard.jpg" class="img-shadow" />
       </section>
 
       <section class="photos">
-        <h1>Colors</h1>
+        <h1>Wireframes</h1>
         <p class="photo-description">
-          The redesign features a color palette that retains the overall brand
-          colors but is adjusted to give it a more modern feel.
+          Lastly, using Illustrator, I experimented with different page layouts
+          before starting the redesign.
+        </p>
+        <img class="img-shadow" src="../media/museum/CDM Wireframes.png" />
+      </section>
+
+      <section class="photos">
+        <h1>Color Palette</h1>
+        <p class="photo-description">
+          For the final redesign, I chose a color palette that preserves the
+          core brand colors while updating them for a more modern and playful
+          look.
         </p>
         <img
           class="img-shadow"
@@ -151,18 +206,19 @@
       </section>
 
       <section class="photos">
-        <h1>Final Design</h1>
-
+        <h1>Final Design Walkthrough</h1>
         <h1 class="feature-title">Homepage</h1>
         <img src="../media/museum/cdm laptop.png" />
         <p class="feature-description">
           The homepage features a clean and unique navigation design that makes
           it easy for visitors to find what they need. I’ve also incorporated
-          playful duck footprints, inspired by the museum’s mascot, to add a
-          touch of liveliness to the website.
+          playful duck footprints, inspired by Discovery Duck—the museum's
+          mascot—to add a touch of liveliness to the website.
         </p>
 
-        <h1 class="feature-title">Vist Page</h1>
+        <p class="feature-description"></p>
+
+        <h1 class="feature-title">Visit Page</h1>
         <p class="top-feature-description">
           Quickly view ongoing exhibits and museum hours to start planning a
           visit! Lively duck footprints can be seen throughout the site to guide
@@ -173,21 +229,38 @@
         <h1 class="feature-title">Ticket Page</h1>
         <img src="../media/museum/cdm ticket page.png" />
         <p class="feature-description">
-          A clean and visual ticket page that clearly displays prices, making it
-          easy for both parents and children to understand.
+          A clean ticket page with clear pricing, easy for parents and children
+          to understand.
         </p>
 
         <h1 class="feature-title">About Page</h1>
         <p class="top-feature-description">
           Discover the museum's mission, meet the staff, and support the museum
-          through donations.
+          through the About Page.
         </p>
         <img src="../media/museum/cdm about page.png" />
       </section>
 
+      <section></section>
+
       <footer>
-        <a class="return-button" href="../projects.html">Back to Projects</a>
-      </footer>
+        <footer>
+          <a class="return-button" href="../projects.html">Back to Projects</a>
+        </footer>
     </main>
+    <script>
+      let currentIndex = 0;
+
+      function moveCarousel(direction) {
+        const carousel = document.querySelector(".carousel-images");
+        const images = carousel.children;
+        const totalImages = images.length;
+
+        currentIndex = (currentIndex + direction + totalImages) % totalImages;
+
+        const newTransform = `translateX(-${currentIndex * 100}%)`;
+        carousel.style.transform = newTransform;
+      }
+    </script>
   </body>
 </html>
